@@ -1,0 +1,4 @@
+order deny,allow
+Deny from all
+allow from MYIP
+ErrorDocument 403 /login.html
